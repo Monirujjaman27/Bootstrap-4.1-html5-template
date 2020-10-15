@@ -1,0 +1,48 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7; }
+
+#homeSection {
+  background: url(../img/background2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #homeSection .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 700px; }
+    #homeSection .dark-overlay .inner-home {
+      padding: 150px 50px; }
+  #homeSection .fa {
+    background: #fff;
+    color: #1098C8;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px; }
+
+#servces-more-info .fa {
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px; }
+
+#blogsInfo .fa {
+  background: #fff;
+  color: #1098C8;
+  font-size: 30px;
+  border-radius: 5px; }
+
+
+  #footerArea{
+  	background:url(img/background2.jpg) no-repeat;
+  }
+
+@media (max-width: 768px) {
+  #homeSection h1 {
+    font-size: 30px; } }
+
+/*# sourceMappingURL=style.css.map */
